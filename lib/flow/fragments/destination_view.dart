@@ -16,7 +16,9 @@ class DestinationView extends StatelessWidget {
       body: Container(
         alignment: Alignment.center,
         child: destination.id == 0
-            ? PeopleView()
+            ? PeopleView(
+                isNotInChatMode: false,
+              )
             : destination.id == 1
                 ? BookmarkView()
                 : ContactView(),

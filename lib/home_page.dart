@@ -44,11 +44,7 @@ class LabelWidget extends StatelessWidget {
     return Row(
       children: [
         Expanded(
-          child: RaisedButton(
-            color: MyColors.darkGreen,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(20.0),
-            ),
+          child: ElevatedButton(
             onPressed: () {
               Navigator.of(context).push(
                 MaterialPageRoute(

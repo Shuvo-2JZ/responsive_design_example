@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:random_color/random_color.dart';
-import 'package:responsive_design/flow/screens/chat_page.dart';
+//import 'package:responsive_design/flow/screens/chat_page.dart';
 import 'package:responsive_design/flow/widgets/text_view.dart';
 
 /// The content to the displayed in each PeopleList item
@@ -20,10 +20,7 @@ class PeopleItem extends StatelessWidget {
         padding: const EdgeInsets.only(top: 8.0, bottom: 8.0, left: 16.0, right: 40.0),
         child: InkWell(
           onTap: () {
-            isNotInChatMode ??
-                Navigator.of(context).push(MaterialPageRoute(
-                  builder: (context) => ChatPage(profileColor),
-                ));
+            //isNotInChatMode;
           },
           child: Row(
             mainAxisAlignment: MainAxisAlignment.start,
