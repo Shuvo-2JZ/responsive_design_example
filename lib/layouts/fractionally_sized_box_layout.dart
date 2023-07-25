@@ -11,7 +11,7 @@ class FractionallySizedBoxLayout extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
             Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
+              //crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 FractionallySizedWidget(widthFactor: 0.4),
               ],

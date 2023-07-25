@@ -13,7 +13,8 @@ class MediaQueryLayout extends StatelessWidget {
         child: Center(
           child: Text(
             'View\n\n' +
-                '[MediaQuery width]: ${screenSize.width.toStringAsFixed(2)}\n\n' +
+                '[MediaQuery width]: ${screenSize.width.toString()}\n\n' +
+                '[MediaQuery height]: ${screenSize.height.toString()}\n\n' +
                 '[MediaQuery orientation]: $orientation',
             style: TextStyle(color: Colors.white, fontSize: 18),
           ),
